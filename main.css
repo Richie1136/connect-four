@@ -1,0 +1,66 @@
+:root {
+  box-sizing: border-box;
+}
+/*  Put your CSS Here */
+#board {
+  background-color: blue;
+  height: 540px;
+  width: 650px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 180px;
+  left: 350px;
+}
+/* .columns {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 700px;
+    height:800px;
+} */
+body {
+  background-image: url(https://coolbackgrounds.io/images/unsplash/anders-jilden-medium-5d01610e.jpg);
+  display: flex;
+  position: absolute;
+  /* background-position-x: 100px;
+  background-position-y: 100px; */
+  background-position: center;
+}
+.columns {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column-reverse;
+  /* flex-grow: 1; */
+  width: 92.86px;
+  height: 540px;
+  align-items: center;
+}
+
+.columns:hover {
+  background-color: violet;
+}
+
+.piece {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+h1 {
+  display: flex;
+  position: relative;
+  left: 650px;
+  top: 90px;
+  color: wheat;
+}
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
